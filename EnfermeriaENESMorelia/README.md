@@ -1,2 +1,0 @@
-# EnfermeriaENESMorelia
-Our final project in Project Management is to improve one of the attention services at ENES Morelia. We chose to enhance the user experience at the university's nursing clinic by developing software that streamlines the registration process when requesting medical attention. Currently, this process is done manually in a notebook, which can be inefficient and even tedious, especially considering that people visit the nursing clinic in situations of physical discomfort or even emergencies.

@@ -56,8 +56,11 @@ FOREIGN KEY (clave_personal) REFERENCES personal(clave_personal)
 -- insert personal
 INSERT INTO personal (nombre, apellidos, cargo)
 VALUES
- ('Francisco', 'Ambriz Vazquez', 'MEDICO'),
- ('Margarita', 'Hernandez', 'ENFERMERO');
+('Luis Francisco', 'Ambriz Vazquez', 'MEDICO'),
+('Margarita', 'Hernandez Bedolla', 'ENFERMERO'),
+('Anel', 'Rodriguez Sosa', 'MEDICO'),
+('Juan', 'Cruz', 'MEDICO');
+
 
 -- insert alumno
 INSERT INTO alumno (no_cuenta, nombre, apellidos, semestre, licenciatura)
@@ -71,11 +74,11 @@ VALUES
 INSERT INTO atencion (fecha, hora, tipo_servicio, no_cuenta, clave_personal)
 VALUES
 ('2026-05-23', '9:48:00', 'URGENCIA',  '425089314', 1),
-('2026-05-23', '10:31:00', 'INSUMO',    '425092112', 2),
+('2026-05-23', '10:31:00', 'INSUMO',    '425092112', 3),
 
-('2026-05-24', '8:51:00', 'CONSULTA',  '425089314', 1),
-('2026-05-24', '12:17:00', 'OTROS',  '425004298', 2),
+('2026-05-24', '8:51:00', 'CONSULTA',  '425089314', 2),
+('2026-05-24', '12:17:00', 'OTROS',  '425004298', 4),
 ('2026-05-24', '15:11:00', 'INSUMO',  '425032877', 2),
 
 ('2026-05-25', '10:01:00', 'CONSULTA',  '425032877', 1),
-('2026-05-25', '11:43:00', 'INSUMO',  '425092112', 1);
+('2026-05-25', '11:43:00', 'INSUMO',  '425092112', 3);

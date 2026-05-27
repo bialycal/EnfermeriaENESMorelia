@@ -7,7 +7,8 @@ from app.routers import students, visits, staff
 app = FastAPI(
     title="Enfermería ENES Morelia",
     description="Sistema de registro de visitas para la enfermería de la ENES Morelia, UNAM",
-    version="1.0.0"
+    version="1.0.0",
+    redirect_slashes=False
 )
 
 app.add_middleware(
